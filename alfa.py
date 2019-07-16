@@ -6,7 +6,7 @@ file = open("testfile.txt", "w")
 t = 0.25
 #detecting face
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml') 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 while 1:
     ret,img = cap.read()
